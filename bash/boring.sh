@@ -49,6 +49,6 @@ while [ true ]; do
 done;
 
 
-echo"Boring class is done..."
+echo "Boring class is done..."
 
 
