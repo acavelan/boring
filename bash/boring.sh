@@ -31,7 +31,7 @@ while [ true ]; do
 
 	clear;
 	echo $H:$M:$S
-	echo "Boring course Remaining: $(($GOAL - $CURRENT))s $PER%"
+	echo "Boring class Remaining: $(($GOAL - $CURRENT))s $PER%"
 	SS="["
 	for (( i=1; i<=$PER*78/100; i++ ))
 	do
@@ -49,6 +49,6 @@ while [ true ]; do
 done;
 
 
-echo"Boring course is done..."
+echo"Boring class is done..."
 
 
